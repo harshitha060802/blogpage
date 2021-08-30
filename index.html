@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome to WhatIAte.com</title>
+        <style>
+            #top_header {
+                background-color:rgb(181, 124, 207);
+                color:white;
+                font-family:Arial, Helvetica, sans-serif;
+                font-weight:500;
+                padding:3px;
+                text-align:center;
+                margin-left:10px;
+            }
+
+            button{
+                font-size:15px;
+                border:0px;
+                border-radius:3px;
+                margin-top:5px;
+                margin-left:1000px;
+                padding-top:5px;
+                padding-bottom:5px;
+                padding-left:20px;
+                padding-right:20px;
+                background-color:white;
+                color:rgb(181, 124, 207);
+                cursor:pointer;
+            }
+
+            button:hover{
+                background-color:rgb(250, 240, 252);
+            }
+        
+            #nav_bar{
+                margin-left:10px;
+                background-color:rgb(181, 124, 207);
+                color:white;
+            }
+
+            #nav_bar a{
+                color:white;
+                text-decoration: none;
+            }
+
+            #nav_bar ul{
+                padding: 3px;
+                list-style:none;
+            }
+            
+            #nav_bar li{
+                display: inline;
+                padding:0px 100px;
+                margin:0px 0px 3px 50px;
+                font-size:20px;
+                line-break:normal;
+            }
+            
+            .column{
+                float:left;
+                width:35%;
+                height:350px;
+                margin-left:5px;
+                background-color: rgb(248, 237, 252);
+                color:black; 
+                border: 1px rgb(181, 124, 207) solid;
+                box-sizing: border-box;
+            }
+
+            .column h2{
+                margin-left:95px;
+                font-family:'Gill Sans';
+            }
+
+            .column p{
+                margin-left:20px;
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+
+            img {
+                height:150px;
+                width:280px;
+                margin-left:80px;
+
+            }
+            
+            #blog{
+                text-decoration:none;
+                font-size:20px;
+                font-family:'Gill Sans';
+            }
+
+            #more {
+                text-decoration:none;
+                color:rgb(155, 138, 252);
+            }
+
+            .side {
+                float:right;
+                height:620x;
+                width:28%;
+                padding-left:5px;
+                font-family:cursive;
+                font-size:18px;
+                border: 2.5px rgba(181, 124, 207, 0.507) solid;
+                background-color:rgb(255, 255, 255);
+            }
+
+            .side img{
+                height:400px;
+                width:340px;
+                margin-left:2px;
+                margin-right:2px;
+                box-sizing:border-box ;
+            }
+
+            .below{
+              margin-top:750px;
+              border: 2px rgba(181, 124, 207, 0.507) solid;
+              background-color:rgb(181, 124, 207) ;
+              height:200px;
+              color:white;
+              padding-left:10px;
+              font-size:25px;
+              font-family:'Gill Sans';
+            }
+
+            .below img{
+                float:right;
+                height:200px;
+                width:390px;
+                margin-right:0px;
+            }
+
+            h3{
+                font-family:Arial, Helvetica, sans-serif;
+                color:rgb(87, 86, 86);
+            }
+
+            textarea{
+                width:30%;
+                height:50px;
+                padding-left:10px;
+                margin-bottom:5px;
+            }
+
+            input{
+                width:30%;
+                margin-bottom:10px;
+                padding-top:10px;
+                padding-left:10px;
+                padding-right:100px;
+
+            }
+
+            input[type="button"] {
+                background-color:rgb(218, 156, 247);
+                color:white;
+                width:50px;
+                margin-left:200px;
+                border:0px;
+                padding-top:5px;
+                padding-bottom:5px;
+                border-radius:5px;
+                cursor:pointer;
+            }
+
+            input[type="button"]:hover {
+                background-color:rgb(249, 236, 255);
+                color:rgb(218, 156, 247);
+            }
+
+            #review p{
+                font-family:Arial, Helvetica, sans-serif;
+            }
+
+            #end{
+                padding-top:40px;
+                text-align:center;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <header id="top_header">
+            <h1>What I Ate</h1>
+            <a href="signup.html">
+              <button type="submit">Sign Up</button>
+            </a>  
+        </header>
+        <nav id="nav_bar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Recipes</a></li>
+                <li><a href="#">Shop</a></li>
+            </ul>
+        </nav>
+
+        <div class="row">
+        <div class="column">
+            <h2>Veg Fried Noodles</h2>
+            <img src="images/veg1.jpg" alt="Image of Veg hakka noodles">
+            <p><u id="blog">This street-style Veg Hakka Noodles is a great Saturday night meal. Pair it up with your favourite Indo-Chinese recipe to make a complete meal easy at home. </u><u id="more">Continue Reading.</u>
+            </p>
+        </div>
+        <div class="column">
+            <h2>Mac and Cheese</h2>
+            <img src="images/mac1.jpg" alt="Image of Mac and Cheese">
+            <p><u id="blog">Can you handle this extra creamy,cheesy,classic Mac and Cheese?I mean, macaroni pasta coated in creamy,velvety sauce...Oof this is heaven! </u><u id="more">Continue Reading.</u>
+            </p>
+        </div>
+        </div>
+
+        <div class="side">
+            <h4>About Us:</h4>
+            <img src="images/woman1.jpg" alt="Picture of myself">
+            <p class="about">Hey there! I'm Alicia, a cook, writer and a full time blogger. WhatIAte is my little world where I share all my finger-licking recipes with y'all. My love for food is never ending and I thought why not share it with foodies like me all around the world!</p>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <h2>Chocolate Pumpkin Loaf</h2>
+                <img src="images/cpump.jpg" alt="Image of Chocolate Pumpkin Loaf">
+                <p><u id="blog">What?! Two amazing flavours in a moist, pumpkin and chocolate loaf? With warming spices like cinnamon, ginger,nutmeg, this is indeed a classic! </u><u id="more">Continue Reading.</u>
+                </p>
+            </div>
+            <div class="column">
+                <h2>Blueberry Smoothie Recipe</h2>
+                <img src="images/blueberry.jpg" alt="Image of Blueberry Smoothie">
+                <p><u id="blog">This yummy blueberry breakfast smoothie is packed with superfoods and perfect for busy mornings...So good and so wholesome! </u><u id="more">Continue Reading.</u>
+                </p>
+            </div>
+        </div>
+        
+        <div class="below">
+            <img src="images/food2.jpg" alt="Picture of food">
+            <p>Do you enjoy cooking just as much as we do? Show us how!</p>
+            <p>Make any dish from our CookBook and snap a clear photo of it. Upload it on any of your Social Media handles and tag us. Get a chance to get featured on our Monthly Newsletter and win a gift voucher of &#8377;5000/- in our online shop! </p>
+        </div>
+        <div id="review"><br><br>
+            <h3>LEAVE US A REVIEW</h3>
+            <p>Tell us what you think about us! Your email address will not be published.</p>
+            <form method="GET">
+                <label>Comment</label>
+                <textarea></textarea><br><br>
+                <label>Name</label>
+                <input type="text" name="name"><br><br>
+                <label>Email</label>
+                <input type="email" name="email"><br><br>
+                <input type="button" name="Postreply" value="Post your reply">
+            </form>
+        </div>
+        <footer id="end">
+            &copy;2021 What I Ate. All Rights Reserved.
+        </footer>
+    </body>
+</html>

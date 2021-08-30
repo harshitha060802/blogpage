@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign Up to WhatIAte.com</title>
+        <style>
+            body{
+                margin:75px 350px 0px 350px;
+                background-color:rgb(208, 241, 128);
+            }
+        
+            #signup{
+                border: 0px solid black;
+                border-radius:40px;
+                background-color:white;
+                width:400px;
+                height:500px;
+                padding:20px;
+                margin-left:80px;
+            }
+
+            #lot_player{
+                margin-left:140px;
+            }
+
+            button {
+                margin-top:20px;
+                margin-left:150px;
+                background-color:rgb(209, 245, 125);
+                color:rgb(71, 70, 70);
+                border:1px white solid;
+                border-radius:20px;
+                padding-top:5px;
+                padding-bottom:5px;
+                cursor:pointer;
+            }
+            
+            button:hover {
+                background-color:rgb(234, 253, 189);
+            }
+
+            input {
+                width:100%;
+                margin:9px 0px;
+                padding: 9px 5px;
+                box-sizing:border-box;
+                border-radius:5px;
+                border-color:rgb(19, 19, 18);
+            }
+
+            #para1 {
+                font-size:14px;
+                font-family:Arial, Helvetica, sans-serif;
+            }
+
+            u{
+                font-style:italic;
+                color:blue;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="signup">
+            <div id="lot_player">
+                <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_SgQLT9.json"  background="transparent"  speed="1"  style="width: 120px; height: 120px;"  loop  autoplay></lottie-player>
+            </div>
+        <form method="POST">
+                <input type="text" name="fName" placeholder="Enter your first name" required>
+
+                <input type="text" name="lName" placeholder="Enter your last name" required>
+
+                <input type="email" name="emid" placeholder="Enter your email id" required>
+
+                <input type="password" placeholder="enter a password(should contain atleast one special character)" required>
+
+                <input type="password" placeholder="re-enter the password" required>
+                <p id="para1">By creating account, you agree to our <u>Terms & Conditions.</u></p>
+
+                <button type="submit">Create Account</button>
+                
+            </form>
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        </div>
+    </body>
+    
+</html>
